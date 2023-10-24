@@ -20,6 +20,9 @@ class Deck:
     def _set_card_array(self, card_array):
         self.card_array = card_array
 
+    '''
+    Method to delete the deck
+    '''
     def _delete_card_array(self):
         del self.card_array
 
